@@ -1,0 +1,8 @@
+curl -H "Content-Type: application/json" -X POST -d '{"firstName":"Matthew","lastName":"Arnold","email":"mdavidarnold@gmail.com","username":"mdavidarnold@gmail.com","password":"march1992"}' localhost:3000/users
+
+curl -H "Content-Type: application/json" -X POST -d '{"firstName":"Test","lastName":"Human","email":"bob@gmail.com","username":"bob@gmail.com","password":"test"}' localhost:3000/users
+
+curl -H "Content-Type: application/json" -X PUT -d '{"lastName":"Updated"}' localhost:3000/users/5b75a08c451efa00aaba04a9
+
+curl -X DELETE localhost:3000/users/5b75a08c451efa00aaba04a9
+
